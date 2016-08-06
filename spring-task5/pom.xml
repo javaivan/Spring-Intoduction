@@ -6,7 +6,7 @@
 		<artifactId>spring</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>spring-task3</artifactId>
+	<artifactId>spring-task5</artifactId>
 
 	<dependencies>
 		<dependency>

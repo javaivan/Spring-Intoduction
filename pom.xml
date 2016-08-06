@@ -40,5 +40,7 @@
         <module>spring-task5</module>
         <module>spring-task6</module>
         <module>spring-task7</module>
+        <module>spring-task8</module>
+        <module>spring-task9</module>
     </modules>
 </project>

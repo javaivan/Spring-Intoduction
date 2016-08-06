@@ -6,10 +6,10 @@
                            http://www.springframework.org/schema/context 
                            http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<bean id="bookRepository" class="it.discovery.repository.DBBookRepository" init-method="init" destroy-method="destroy"  />
+	<bean id="bookRepository" class="com.ivanmix.repository.DBBookRepository" init-method="init" destroy-method="destroy"  />
 
 
-	<bean id="bookService" class="it.discovery.service.BookServiceImpl">
+	<bean id="bookService" class="com.ivanmix.service.BookServiceImpl">
         <constructor-arg ref="bookRepository"></constructor-arg>
 	<!--	<property name="repository" ref="bookRepository" />-->
 	</bean>
